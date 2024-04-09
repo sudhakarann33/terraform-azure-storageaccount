@@ -1,6 +1,6 @@
 module "storagemodule" {
   source = "./modules/storageaccount"
-  storageaccountname = "<yourname>storagelkm"
+  storageaccountname = "sudhakarstoragelkm"
   resourcegroupname = azurerm_resource_group.example.name
 }
 
